@@ -2,7 +2,7 @@
   "name": "mysql-nodejs-rest-api",
   "version": "1.0.0",
   "description": "Api rest de prueba con node js y mysql",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon src/app.js",
     "start": "node src/app.js"
@@ -12,7 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
